@@ -3,7 +3,7 @@ window.onload=function(){
   fetch("https://raw.githubusercontent.com/oopzzozzo/sql-cheat/master/bucket.sql")
     .then(response => response.text())
     .then((code) => {
-      elems[0].innerHTML = code.substring(1, code.length-1);
+      elems[0].innerHTML += code;
     });
   PR.prettyPrint();
 }
