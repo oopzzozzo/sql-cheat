@@ -4,5 +4,6 @@ window.onload=function(){
     .then(response => response.text())
     .then((code) => {
       elems[0].innerHTML = code;
-    })
+    });
+  PR.prettyPrint();
 }
