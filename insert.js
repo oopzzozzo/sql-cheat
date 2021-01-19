@@ -5,5 +5,5 @@ window.onload=function(){
     .then((code) => {
       elems[0].innerHTML += code;
     });
-  PR.prettyPrint();
+  //PR.prettyPrint();
 }
